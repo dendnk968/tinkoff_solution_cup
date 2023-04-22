@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CardView.Default">
+        <!--TODO: перенемти в ресурсы-->
+        <item name="cardElevation">36dp</item>
+        <item name="cardBackgroundColor">@color/background</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardCornerRadius">@dimen/corner_radius</item>
+    </style>
+
+    <style name="CardView.Secondary" parent="CardView.Default">
+        <item name="cardBackgroundColor">@color/background_surface</item>
+    </style>
+
+    <style name="Text">
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Header" parent="Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubTitle" parent="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#9299A2</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+</resources>
